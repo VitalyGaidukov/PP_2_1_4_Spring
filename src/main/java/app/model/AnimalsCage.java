@@ -14,7 +14,7 @@ public class AnimalsCage {
     @Qualifier("dog")
     private Animal animal;
 
-    @Bean
+    @Bean("timerBean")
     public Timer getTimer() {
         Timer timer1 = new Timer();
         return timer1;
